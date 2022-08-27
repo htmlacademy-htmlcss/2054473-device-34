@@ -10,18 +10,17 @@
   </head>
 
   <body>
+    <div class="wrapper">
     <header class="head">
-      <div class="pre-logo">
         <a class="logo">
-          <img src="images/ico/logo.svg" width="145" height="36" alt="Интернет-магазин Девайс">
+          <img src="images/ico/logo.svg" width="145" height="40" alt="Интернет-магазин Девайс.">
         </a>
-      </div>
       <nav class="head-navigation">
         <div class="nav-top">
 
           <form action="https://echo.htmlacademy.ru" method="post" class="form-search">
-            <label for="search" class="visually-hidden">Поиск</label>
-            <input class="form-search-input" id="search" name="search" type="search" placeholder="Текст поиска">
+            <label for="search" class="visually-hidden">Поиск.</label>
+            <input class="form-search-input" id="search" name="search" type="search" placeholder="Текст поиска" required>
             <button class="form-search-btn" type="submit">Найти</button>
           </form>
 
@@ -33,11 +32,11 @@
           </ul>
 
           <ul class="nav-list-right">
-            <li>
-              <a href="#" class="nav-compare nav-link"><span class="nav-ico-compare"></span>Сравнить</a>
+            <li class="nav-compare">
+              <a href="#" class="nav-link"><span class="nav-ico-compare"></span>Сравнить</a>
             </li>
-            <li>
-              <a href="#" class="nav-thrash nav-link">
+            <li class="nav-thrash">
+              <a href="#" class="nav-link">
                 <div class="nav-thrash-reactangle">2</div>
                 <span class="nav-ico-thrash"></span>Корзина
               </a>
@@ -48,18 +47,18 @@
                   <li class="popover-cart-item">
                     <a class="popover-item-link" href="#">
                       <img class="popover-image" src="images/tripod-mobile-sm.jpg" width="39" height="43"
-                        alt="Любительская селфи-палка">
+                        alt="Любительская селфи-палка.">
                       <p class="cart-item-title">Любительская селфи-палка</p>
                     </a>
-                    <button class="delete-button" type="submit"><span class="visually-hidden">Удалить</span></button>
+                    <button class="delete-button" type="button"><span class="visually-hidden">Удалить</span></button>
                   </li>
                   <li class="popover-cart-item">
                     <a class="popover-item-link" href="#">
                       <img class="popover-image" src="images/tripod-sm.jpg" width="39" height="43"
-                        alt="Профессиональная селфи-палка">
+                        alt="Профессиональная селфи-палка.">
                       <p class="cart-item-title">Профессиональная селфи-палка</p>
                     </a>
-                    <button class="delete-button" type="submit"><span class="visually-hidden">Удалить</span></button>
+                    <button class="delete-button" type="button"><span class="visually-hidden">Удалить</span></button>
                   </li>
                 </ul>
                 <div class="totals">
@@ -121,14 +120,14 @@
     </header>
 
     <main>
-      <h1 class="visually-hidden">Интернет-магазин "Девайс"</h1>
+      <h1 class="visually-hidden">Интернет-магазин "Девайс".</h1>
       <section class="main-slider">
-        <h2 class="visually-hidden">Популярные товары</h2>
+        <h2 class="visually-hidden">Популярные товары.</h2>
         <div class="slider-wrapper">
           <div class="slide slide-open">
-            <h3 class="visually-hidden">Квадрокоптер</h3>
+            <h3 class="visually-hidden">Квадрокоптер.</h3>
             <div class="slider-image">
-              <img src="images/slide_kvadro.png" height="560" width="560" alt="Квадрокоптер">
+              <img src="images/slide_kvadro.png" height="560" width="560" alt="Квадрокоптер.">
             </div>
             <div class="slider-text">
               <div class="slider-header">01</div>
@@ -148,9 +147,9 @@
           </div>
 
           <div class="slide slide-hidden">
-            <h3 class="visually-hidden">Фитнес-браслет</h3>
+            <h3 class="visually-hidden">Фитнес-браслет.</h3>
             <div class="slider-image">
-              <img src="images/slide_bangle.png" height="560" width="560" alt="Фитнес-браслет">
+              <img src="images/slide_bangle.png" height="560" width="560" alt="Фитнес-браслет.">
             </div>
             <div class="slider-text">
               <div class="slider-header">02</div>
@@ -170,9 +169,9 @@
 
 
           <div class="slide slide-hidden">
-            <h3 class="visually-hidden">Монопод</h3>
+            <h3 class="visually-hidden">Селфи палка.</h3>
             <div class="slider-image">
-              <img src="images/slide_tripod.png" height="560" width="560" alt="Селфи палка">
+              <img src="images/slide_tripod.png" height="560" width="560" alt="Селфи палка.">
             </div>
             <div class="slider-text">
               <div class="slider-header">03</div>
@@ -204,24 +203,17 @@
           </div>
 
           <div class="slider-dot-pagination">
-
-            <label class="slider-dot-item">
               <button class="slider-dot active" type="button">
                 <span class="visually-hidden">1 предложение</span>
               </button>
-            </label>
 
-            <label class="slider-dot-item">
               <button class="slider-dot" type="button">
                 <span class="visually-hidden">2 предложение</span>
               </button>
-            </label>
 
-            <label class="slider-dot-item">
               <button class="slider-dot" type="button">
                 <span class="visually-hidden">3 предложение</span>
               </button>
-            </label>
           </div>
 
         </div>
@@ -230,42 +222,42 @@
       </section>
 
       <section class="subcategory">
-        <h2 class="visually-hidden">Категории товаров</h2>
+        <h2 class="visually-hidden">Категории товаров.</h2>
         <div class="subcategory-block">
           <ul class="subcategory-categories">
             <li class="subcategory-element">
               <a class="subcategory-item" href="#">
-                <div class="subcategory-image glasses"></div>
+                <div class="subcategory-image glasses" role="img" aria-label="Виртуальная реальност"></div>
                 Виртуальная реальность
               </a>
             </li>
             <li class="subcategory-element">
               <a class="subcategory-item" href="#">
-                <div class="subcategory-image tripod"></div>
+                <div class="subcategory-image tripod" role="img" aria-label="Моноподы для селфи"></div>
                 Моноподы <br>для селфи
               </a>
             </li>
             <li class="subcategory-element">
               <a class="subcategory-item" href="#">
-                <div class="subcategory-image camera"></div>
+                <div class="subcategory-image camera" role="img" aria-label="Экшн-камеры"></div>
                 Экшн-камеры
               </a>
             </li>
             <li class="subcategory-element">
               <a class="subcategory-item" href="#">
-                <div class="subcategory-image bangle"></div>
+                <div class="subcategory-image bangle" role="img" aria-label="Фитнес‑браслеты"></div>
                 Фитнес‑браслеты
               </a>
             </li>
             <li class="subcategory-element">
               <a class="subcategory-item" href="#">
-                <div class="subcategory-image watch"></div>
+                <div class="subcategory-image watch" role="img" aria-label="Умные часы"></div>
                 Умные часы
               </a>
             </li>
             <li class="subcategory-element">
               <a class="subcategory-item" href="#">
-                <div class="subcategory-image kvadro"></div>
+                <div class="subcategory-image kvadro" role="img" aria-label="Квадрокоптеры"></div>
                 Квадрокоптеры
               </a>
             </li>
@@ -277,7 +269,7 @@
 
 
       <section class="service">
-        <h2 class="visually-hidden">Наши преимущества</h2>
+        <h2 class="visually-hidden">Наши преимущества.</h2>
         <div class="service-container">
           <div class="service-inner-box">
             <div class="service-menu">
@@ -292,7 +284,7 @@
             </div>
             <div class="service-text-delivery">
               <div class="service-text delivery">
-                <h3 class="main-title">Доставка</h3>
+                <h3 class="service-title">Доставка</h3>
                 <p class="service-delivery-info">Мы с удовольствием доставим ваш товар прямо<br /> к вашему подъезду
                   совершенно бесплатно! Ведь мы неплохо заработаем, поднимая его на ваш этаж.</p>
               </div>
@@ -300,7 +292,7 @@
 
             <div class="service-text-warranty visually-hidden">
               <div class="service-text warranty">
-                <h3 class="main-title">Гарантия</h3>
+                <h3 class="service-title">Гарантия</h3>
                 <p class="service-warranty-info">Если из-за возгорания купленного у нас товара у вас сгорит дом — не
                   переживайте, мы выдадим вам новый. Товар, не дом, конечно же.</p>
               </div>
@@ -308,7 +300,7 @@
 
             <div class="service-text-credit visually-hidden">
               <div class="service-text credit">
-                <h3 class="main-title">Кредит</h3>
+                <h3 class="service-title">Кредит</h3>
                 <p class="service-credit-info">Залезть в долговую яму стало проще! Кредитные консультанты подберут для
                   вас
                   наиболее выгодные условия кредита. Выгодные для банка, разумеется.</p>
@@ -331,7 +323,7 @@
 
 
       <section class="device-information">
-        <h2 class="visually-hidden">Информация</h2>
+        <h2 class="visually-hidden">Информация.</h2>
         <div class="device-information-about">
           <h3 class="main-title">О нас</h3>
           <p class="device-text">Огромный выбор гаджетов не оставит равнодушным<br /> гика, который есть в каждом из
@@ -361,7 +353,7 @@
       <section class="subscribe">
         <div class="subscribe-container">
           <div class="subscribe-header">
-            <h3 class="main-title">Подпишитесь на рассылку</h3>
+            <h3 class="subscribe-header-title">Подпишитесь на рассылку</h3>
           </div>
           <div class="subscribe-text-box">
             <p class="subscribe-text">Еженедельный дайджест с обзорами новинок,<br /> длительными тест-драйвами,
@@ -372,7 +364,7 @@
             <form action="https://echo.htmlacademy.ru" method="post" class="form-subscribe">
               <label for="subscribe" class="visually-hidden">Введите ваш e-mail</label>
               <input class="form-subscribe-input" id="subscribe" name="subscribe" type="email"
-                placeholder="Ваш e-mail"><button class="form-subscribe-btn" type="submit">Подписаться</button>
+                placeholder="Ваш e-mail" required><button class="form-subscribe-btn" type="submit">Подписаться</button>
             </form>
           </div>
           <div class="subscribe-free">
@@ -388,7 +380,7 @@
       <div class="footer-container">
 
         <div class="logo-footer">
-          <h3 class="visually-hidden">На главную страницу</h3>
+          <h3 class="visually-hidden">На главную страницу.</h3>
           <a class="logo-footer-ico"></a>
         </div>
 
@@ -414,7 +406,7 @@
 
             <li class="footer-social-list">
               <a href="https://t.me/htmlacademy" class="footer-social-group-item-link footer-social-circle">
-                <span class="visually-hidden">Телеграм</span>
+                <span class="visually-hidden">Телеграм.</span>
                 <svg width="14" height="12" fill="currentColor" xmlns="http://www.w3.org/2000/svg"
                   class="footer-social-ico">
                   <path
@@ -426,7 +418,7 @@
             <li class="footer-social-list">
               <a href="https://www.youtube.com/user/htmlacademyru"
                 class="footer-social-group-item-link footer-social-circle">
-                <span class="visually-hidden">Ютуб</span>
+                <span class="visually-hidden">Ютуб.</span>
                 <svg width="16" height="11" fill="currentColor" xmlns="http://www.w3.org/2000/svg"
                   class="footer-social-ico">
                   <g clip-path="url(#a)">
@@ -441,9 +433,10 @@
                 </svg>
               </a>
             </li>
+
             <li class="footer-social-list">
               <a href="https://twitter.com/htmlacademy_ru" class="footer-social-group-item-link footer-social-circle">
-                <span class="visually-hidden">Твиттер</span>
+                <span class="visually-hidden">Твиттер.</span>
                 <svg width="15" height="15" fill="currentColor" xmlns="http://www.w3.org/2000/svg"
                   class="footer-social-ico">
                   <path
@@ -466,9 +459,9 @@
 
       </div>
     </footer>
+  </div>
 
-
-    <div class="modal-cover modal-hidden">
+    <div class="modal-cover modal-open">
       <form class="delivery-form" action="https://echo.htmlacademy.ru/" method="post">
         <fieldset class="delivery-fieldset">
           <h2 class="delivery-form-title">Доставка под заказ</h2>
@@ -476,18 +469,18 @@
           <p class="delivery-form-field">
             <label class="delivery-form-field-name" for="name-field">Ваше имя:</label>
             <input class="delivery-form-input modal-name" id="name-field" type="text" name="buyer-name"
-              placeholder="Введите имя">
+              placeholder="Введите имя" required>
           </p>
           <p class="delivery-form-field">
             <label class="delivery-form-field-name" for="email-field">Ваш e-mail:</label>
             <input class="delivery-form-input modal-email" id="email-field" type="email" name="buyer-email"
-              placeholder="Введите email">
+              placeholder="Введите email" required>
             <span class="email-comment">Забавный у вас адрес</span>
           </p>
           <p class="delivery-form-field">
             <label class="delivery-form-field-name" for="description-field">Что нужно привезти:</label>
             <input class="delivery-form-input modal-description" id="description-field" type="text"
-              name="delivery-description" placeholder="В свободной форме">
+              name="delivery-description" placeholder="В свободной форме" required>
           </p>
           <div class="delivery-form-field">
             <label class="delivery-form-field-name" for="quantity-field">Количество: </label>
@@ -499,16 +492,16 @@
 
             <div class="quantity_inner">
               <button class="bt_minus" type="button">
-                <span class="visually-hidden">Меньше</span>
+                <span class="visually-hidden">Меньше.</span>
                 <svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
                   <path d="M16 7H0v2h16V7Z" />
                 </svg>
               </button>
-              <label class="visually-hidden" for="quantity-field">Количество товаров</label>
+              <label class="visually-hidden" for="quantity-field">Количество товаров.</label>
               <input class="modal-form-field man-number" type="number" id="quantity-field" name="delivery-quantity"
                 value="1" max="6" min="1">
               <button class="bt_plus" type="button">
-                <span class="visually-hidden">Больше</span>
+                <span class="visually-hidden">Больше.</span>
                 <svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
                   <path d="M16 7H9V0H7v7H0v2h7v7h2V9h7V7Z" />
                 </svg>
@@ -519,9 +512,5 @@
         </fieldset>
       </form>
     </div>
-
-
-
   </body>
-
 </html>
